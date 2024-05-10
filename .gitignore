@@ -1,4 +1,6 @@
 # compiled output
+.yarn/cache
+.yarn/install-state.gz
 /dist
 /node_modules
 /build
