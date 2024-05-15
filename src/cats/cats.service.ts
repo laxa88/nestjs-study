@@ -14,4 +14,8 @@ export class CatsService {
   async findAll(): Promise<Cat[]> {
     return this.prisma.cat.findMany();
   }
+
+  async find(id: number): Promise<Cat> {
+    return this.prisma.cat.findFirstOrThrow({ where: { id } });
+  }
 }
