@@ -49,3 +49,15 @@ To create a new Prisma database migration:
 ```bash
 yarn prisma migrate dev --name your_migration_name
 ```
+
+## Using exception filters
+
+TODO
+
+## Using external services
+
+TODO
+
+## Write tests and mocks for services
+
+TODO
